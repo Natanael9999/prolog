@@ -1,0 +1,16 @@
+progenitor(maria, jose).
+progenitor(joao, jose).
+progenitor(joao, ana).
+progenitor(jose, julia).
+progenitor(jose, iris).
+progenitor(iris, jorge).
+
+avôeavó(X,Y) :- progenitor(X,R),progenitor(R,Y).
+
+tioetia(X,Y) :- progenitor(R,X),progenitor(R,T),progenitor(T,Y).
+
+primoeprima(X,Y) :- tioetia(R,X),progenitor(R,Y).
+
+filhoefilha(X,Y) :- progenitor(Y,X).
+
+netoeneta(X,Y) :- progenitor(Y,R),progenitor(R,X).
