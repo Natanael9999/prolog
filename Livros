@@ -1,0 +1,5 @@
+autor(eca_queiroz,os_maias).
+autor(eca_queiroz,a_reliquia).
+nacionalidade(eca_queiroz,portugues).
+tipo(os_maias,romances).
+tipo(a_reliquia,drama).
