@@ -1,0 +1,12 @@
+gosta(bruno,vinho_verde).
+gosta(ana,vinho_maduro).
+gosta(antonio,vinho_verde).
+gosta(barbara,vinho_maduro).
+
+casado(ana,bruno).
+casado(barbara,antonio).
+
+combina(peru,vinho_verde).
+combina(salmão,vinho_maduro).
+combina(frango,vinho_verde).
+combina(solha,vinho_maduro).
