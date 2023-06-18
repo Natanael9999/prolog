@@ -1,0 +1,7 @@
+come(leão,raposa).
+come(raposa,cobra).
+come(cobra,rato).
+come(rato,frutas).
+
+embaixo_alimento(X) :- come(Y,X),come(Z,Y),come(W,Z),come(Q,W),not(come(Q,X)).
+encima_alimento(X) :- come(X,Y),come(Y,Z),come(Z,W),come(W,Q),not(come(X,Q)).
